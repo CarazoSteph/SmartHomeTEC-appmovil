@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SmartHomeTEC-appmovil</string>
+    <string name="username">Username</string>
+    <string name="created_by_stephanie_and_jose_adrian">Created by Stephanie and Jose Adrian</string>
+    <string name="password">Password</string>
+    <string name="log_in">Log in</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="logoname">logoname</string>
+    <string name="logo">logo</string>
+    <string name="bienvenido_a_smarthometec">Bienvenido a SmartHomeTEC</string>
+    <string name="create_account">Crear cuenta</string>
+    <string name="nombre">Nombre</string>
+    <string name="apellido">Apellido</string>
+    <string name="correo">Correo</string>
+    <string name="crear_contrasena">Crear Contraseña</string>
+    <string name="continente">Continente</string>
+    <string name="pais">País</string>
+    <string name="direccion">Dirección</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="salir">Salir</string>
+    <string name="avatar">TODO</string>
+    <string name="gestion_estructural">Gestión estructural</string>
+</resources>
