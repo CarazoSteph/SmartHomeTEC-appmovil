@@ -6,6 +6,7 @@ import android.os.Bundle;
 
 public class UserInformation extends AppCompatActivity {
 
+    //nada
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
