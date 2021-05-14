@@ -9,6 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SmartHomeTECappmovil">
+        <activity android:name=".SelecTipoDisp"></activity>
+        <activity android:name=".Gestion_SH" />
         <activity android:name=".SignUp" />
         <activity android:name=".UserInformation" />
         <activity android:name=".MainActivity">

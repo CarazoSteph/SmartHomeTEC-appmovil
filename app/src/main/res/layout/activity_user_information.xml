@@ -25,15 +25,15 @@
 
     <ImageView
         android:id="@+id/avatar"
-        android:layout_width="165dp"
-        android:layout_height="151dp"
+        android:layout_width="119dp"
+        android:layout_height="127dp"
         android:layout_marginStart="31dp"
         android:layout_marginLeft="31dp"
         android:layout_marginTop="36dp"
+        android:contentDescription="@string/avatar"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
-        app:srcCompat="@drawable/avatar"
-        android:contentDescription="@string/avatar" />
+        app:srcCompat="@drawable/avatar" />
 
     <Button
         android:id="@+id/button5"
@@ -43,6 +43,23 @@
         android:layout_marginLeft="28dp"
         android:layout_marginTop="144dp"
         android:text="@string/gestion_estructural"
+        android:textColor="#000000"
+        android:textColorHighlight="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/avatar" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="171dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="244dp"
+        android:text="@string/log_out"
+        android:textColor="#000000"
+        android:textColorHighlight="#FFFFFF"
+        app:backgroundTint="#D36D66"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/avatar" />
 

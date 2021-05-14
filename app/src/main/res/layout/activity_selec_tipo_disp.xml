@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#232F71"
+    tools:context=".SelecTipoDisp">
+
+    <Button
+        android:id="@+id/automotriz"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/automotriz"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disp_title" />
+
+    <Button
+        android:id="@+id/perifericos"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/perifericos"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/memorias" />
+
+    <Button
+        android:id="@+id/memorias"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/memorias"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/monitores" />
+
+    <Button
+        android:id="@+id/monitores"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/monitores"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fitness" />
+
+    <Button
+        android:id="@+id/fitness"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginLeft="212dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/fitness"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/automotriz" />
+
+    <TextView
+        android:id="@+id/disp_title"
+        android:layout_width="272dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/title_disp"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/hogar"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/hogar"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/disp_title" />
+
+    <Button
+        android:id="@+id/celulares"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/celulares"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/seguridad" />
+
+    <Button
+        android:id="@+id/computadoras"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/computadoras"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/celulares" />
+
+    <Button
+        android:id="@+id/iluminacion"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/iluminacion"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hogar" />
+
+    <Button
+        android:id="@+id/seguridad"
+        android:layout_width="168dp"
+        android:layout_height="49dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/seguridad"
+        android:textColor="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iluminacion" />
+
+    <TextView
+        android:id="@+id/tipo_disp_info"
+        android:layout_width="325dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/tipo_disp_info"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/perifericos" />
+
+    <Button
+        android:id="@+id/atras"
+        android:layout_width="132dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/atras"
+        android:textColorHighlight="#FFFFFF"
+        app:backgroundTint="#95A1E6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tipo_disp_info" />
+
+    <Button
+        android:id="@+id/logout_td"
+        android:layout_width="132dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/log_out"
+        android:textColorHighlight="#FFFFFF"
+        app:backgroundTint="#D36D66"
+        app:layout_constraintStart_toEndOf="@+id/atras"
+        app:layout_constraintTop_toBottomOf="@+id/tipo_disp_info" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
